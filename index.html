@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p class="scroll">Scroll me</p>
+
+    <div class="event-counter">
+      <div class="box">
+        <p>No timing function</p>
+        <p>vanilla</p>
+        <span class="output vanilla">0</span>
+      </div>
+      <div class="box">
+        <p>No timing function</p>
+        <p>throttle</p>
+        <span class="output throttle">0</span>
+      </div>
+      <div class="box">
+        <p>No timing function</p>
+        <p>debounce</p>
+        <span class="output debounce">0</span>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
